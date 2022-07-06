@@ -117,9 +117,9 @@
                         <span v-if="!$v.url.url">This website is invalid</span>
                     </div>
                 </div>
-
-                <button type="submit" id='button' class="btn btn-success mt-5 mb-5" >Submit {{submitstatus}}</button>
-                
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success mt-5 mb-5" >Submit {{submitstatus}}</button>
+                </div>
 
             </form>
         </div>
@@ -232,9 +232,5 @@ export default {
 </script>
 
 <style>
-#button{
-    /* position: absolute; */
-    position: text-center;
 
-}
 </style>
